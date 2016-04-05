@@ -10,7 +10,7 @@ import config
 PY3 = sys.version_info > (3,)
 TWEET_INDEX_PATH = 'data/js/tweet_index.js'
 TWITTER_API_VERIFY = 'https://api.twitter.com/1.1/account/verify_credentials.json'
-TWITTER_API_DELETE = 'https://api.twitter.com/1.1/statuses/destroy/{0}.json?trim_user=false'
+TWITTER_API_DELETE = 'https://api.twitter.com/1.1/statuses/destroy/{0}.json?trim_user=true'
 
 input_func = input if PY3 else raw_input
 
